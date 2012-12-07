@@ -1,0 +1,598 @@
+@font-face {
+    font-family: 'swis721_btbold';
+    src: url('swis721_bt_bold-webfont.eot');
+    src: url('swis721_bt_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swis721_bt_bold-webfont.woff') format('woff'),
+         url('swis721_bt_bold-webfont.ttf') format('truetype'),
+         url('swis721_bt_bold-webfont.svg#swis721_btbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swis721_btroman';
+    src: url('swis721_bt_roman-webfont.eot');
+    src: url('swis721_bt_roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swis721_bt_roman-webfont.woff') format('woff'),
+         url('swis721_bt_roman-webfont.ttf') format('truetype'),
+         url('swis721_bt_roman-webfont.svg#swis721_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swis721_cn_btbold';
+    src: url('swis721_cn_bold-webfont.eot');
+    src: url('swis721_cn_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swis721_cn_bold-webfont.woff') format('woff'),
+         url('swis721_cn_bold-webfont.ttf') format('truetype'),
+         url('swis721_cn_bold-webfont.svg#swis721_cn_btbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swis721_cn_btroman';
+    src: url('swis721_cn_roman-webfont.eot');
+    src: url('swis721_cn_roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swis721_cn_roman-webfont.woff') format('woff'),
+         url('swis721_cn_roman-webfont.ttf') format('truetype'),
+         url('swis721_cn_roman-webfont.svg#swis721_cn_btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Background da Pagina toda */
+
+body{
+	margin: 0; padding: 0;
+}
+
+.todo{
+	margin: 0 auto; padding:0;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	
+
+}
+
+.bgBranco{
+
+	background: #FFF;
+}
+
+.bgCinza{
+
+	background: rgb(204,204,204);
+}
+
+.bgVermelho{
+
+	background: rgb(124,50,50);
+}
+
+.bgPreto{
+
+	background-color: #666666;
+}
+
+.todo .container{
+	height: auto;
+	width: 900px;
+	margin: 0 auto;	
+}
+
+/*---------------------------------------------*/
+
+
+/*---------------Formatacao dos Menus----------*/
+.menu{
+	height: 40px;
+	padding-bottom: 20px;
+}
+
+.especial{
+
+	height: 40px;
+	padding-top: 190px;
+	padding-left: 546px;
+}
+
+.menu h1{
+	display: inline;
+	font-family: "swis721_btbold";
+}
+
+.menu .corBranca{
+
+	color: #FFF;
+}
+
+.menu .corPreta{
+
+	color: #000;
+}
+
+.menu .menu1,.menu2,.menu3,.menu4 {
+
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+	float: right;
+	margin-right: 16px;
+	padding-top: 8px;
+	font-family: 'swis721_cn_btroman';
+	
+}
+
+.menu  a{
+
+	display: inline;
+	text-decoration: none;
+	font-size: 20px;	
+}
+
+.menu .menu1:hover,.menu2:hover,.menu3:hover,.menu4:hover{
+
+	border-bottom-style: solid;
+	border-bottom-color: rgb(124,50,50);
+
+}
+
+.menu .branco:hover{
+
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+
+#lstMenu{
+
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 298px;
+	margin-top: 9px;
+}
+
+#face{
+	background-image: url(../img/logofb.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-bottom: 5px;
+
+}
+
+#twt{
+
+	background-image: url(../img/logotwitter.png);
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+/*-------IMAGENS MENU--------------*/
+.img1{
+	width: 240px;
+	background-color: rgb(124,50,50);
+	height: 325px;
+	float: left;
+	
+}
+
+.img1 img{
+
+	width: 271px;
+	
+}
+
+.img1 p{
+
+	font-family: 'swis721_btroman';
+	margin-top: 240px;
+	font-size: 52px;
+	width: 381px;
+}
+
+.img2{
+
+	width: 240px;
+	background-color: rgb(124,50,50);
+	height: 325px;
+	margin-left: 39px;
+	float: left;
+
+}
+
+.img3{
+
+	
+	width: 270px;
+	float: right;
+	margin-right: 42px;
+	margin-top: 12px;
+	
+}
+/*-----------------------------------------*/
+/* SLIDE SHOW HOME*/
+
+#slide{
+	margin-top: 100px;
+	height: 200px;
+	background-color: #000;
+
+}
+
+
+
+.carrocel img{
+
+	height: 170px;
+	margin-top: 15px;
+	margin-left: 40px;
+
+}
+
+#slide #setaDir{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: -103px;
+	border-radius: 5em;
+	text-align: center;
+	background-color: #FFF;
+	font-size: 29px;
+	box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	cursor: pointer;
+	font-weight: bold;
+	color: rgb(123,50,50);
+	margin-right: 20px;
+	float:right;
+}
+
+#setaEsq{
+
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: -103px;
+	margin-left: 20px;
+	float:left;
+	border-radius: 5em;
+	text-align: center;
+	background-color: #FFF;
+	font-size: 29px;
+	box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	cursor: pointer;
+	font-weight: bold;
+	color: rgb(123,50,50);
+}
+
+/*-----------------------------------------*/
+/*TEXTO Home*/
+
+#txtHome{
+	margin-top: 20px;
+	width: 540px;
+	text-align: justify;
+	float: left;
+	padding: 0;
+	margin-left: -50px;
+}
+
+#txtHome p{
+
+	font-family: 'swis721_btroman';
+}
+
+#imgHome{
+
+	float: right;
+	width: 320px;
+	height: 300px;
+	background-color: #000;
+	margin-top: 30px;
+
+}
+
+/*-----------------------------------------*/
+
+/**IMAGENS BENEFICIOS*/
+.img{
+
+	
+	width: 240px;
+	background-color: rgb(128,128,128);
+	margin-bottom: 30px;
+}
+
+
+.img img{
+
+	width: 210px;
+	background-color: #000;
+	padding-right: 30px;
+}
+
+.imgEsq{
+
+	height: 330px;
+	float: left;
+
+}
+
+.imgCent{
+
+	height: 330px;
+	margin-left: 332px;
+}
+
+.imgDir{
+
+	float: right;
+	height: 330px;
+}
+
+.imgBaixo{
+
+	height: 190px;
+	background-color: rgb(128,128,128);
+	border-bottom: 30px rgb(124,50,50) solid;
+
+}
+
+.imgBaixo img{
+
+	background-color: #000;
+	padding-right: 688px;
+}
+
+.imgBaixo p{
+
+	padding-left: 10px;
+	font-family: 'swis721_btroman';
+	margin: 0 auto;
+}
+
+.img p{
+
+	text-align: left;
+	padding-left: 5px;
+	font-family: 'swis721_btroman';
+	margin: 0 auto;
+}
+
+/*-------------------*/
+
+/*Textos Objetivos*/
+.obj1{
+
+	height: 110px;
+}
+
+.obj1 img{
+
+	float: left;
+	width: 100px;
+	height: 90px;
+	background-color: rgb(124,50,50);
+}
+
+.obj1 p{
+
+	float: right;
+	width: 785px;
+	text-align: justify;
+	margin-top: -1px;
+	font-family: "swis721_btroman";
+
+}
+
+/*---------------------*/
+
+/* Corpo Tela CONTATO */
+
+.mapa{
+	margin-bottom: 15px;
+}
+
+label{
+
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'swis721_cn_btroman';
+}
+
+.itemForm{
+
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'swis721_cn_btroman';
+}
+#boxContato{
+
+	width: 363px;
+}
+
+#boxContato form{
+	padding-bottom: 50px;
+}
+
+#form-nome p{
+
+	margin-left: 105px;
+	margin-top: -24px;
+}
+
+#form-nome input{
+
+	width: 250px;
+}
+
+#form-email p{
+
+	margin-left: 105px;
+	margin-top: -24px;
+}
+
+#form-email input{
+
+	width: 250px;
+}
+#form-assunto p{
+
+	margin-left: 105px;
+	margin-top: -24px;
+}
+
+#form-assunto input{
+
+	width: 250px;
+}
+
+#form-comentario p{
+
+	margin-left: 105px;
+	margin-top: -24px;
+}
+
+#form-comentario textarea{
+
+	width: 250px;
+	max-width: 250px;
+	max-height: 96px;
+}
+
+#enviar{
+	background-color: #FFF;
+	color: #000;
+	font-family: 'swis721_cn_btroman';
+	text-decoration: none;
+	border-bottom: 5px rgb(124,50,50) solid;
+	padding: 3px 15px; /* heigth width */
+	margin-left: 485px;
+}
+
+#form-botao{
+
+	margin: 0 auto;
+	float: right;
+}
+
+.botao-form{
+
+	background-color: #FFF;
+	color: #000;
+	font-family: 'swis721_cn_btroman';
+	text-decoration: none;
+	border-bottom: 5px rgb(124,50,50) solid;
+	padding: 3px 15px; /* heigth width */
+	margin-left: 297px;
+}
+/*--------------------*/
+
+
+/*Formatacao RODAPE*/
+#rodape {
+
+	width: 900px;
+	margin: 20px auto;
+	height: 135px;
+}
+
+#rodape .rodapeEsq{
+
+	width: 370px;
+	float: left;
+	border-right: 1px solid #000;
+}
+
+#rodape .rodapeEsq #ufpe{
+
+	
+	width: 212px;
+	padding-right: 30px;
+	margin-left: -8px;
+}
+
+
+#rodape .rodapeEsq #cin{
+
+	width: 81px;
+	
+}
+
+#rodape .rodapeDir{
+
+	width: 515px;
+	float: right;
+	height: 120px;
+	margin-top: -12px;
+
+}
+
+
+#img_face{
+
+	background-image: url(../img/logofb.png);
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+	float: left;
+}
+
+#img_face:hover{
+
+	background-image: url(../img/logofbhover.png);
+
+}
+
+#img_twt{
+
+	background-image: url(../img/logotwitter.png);
+	width: 30px;
+	height: 30px;
+	float: left;
+
+}
+
+#img_twt:hover{
+
+	background-image: url(../img/logotwitterhover.png);
+}
+
+.rodapeDir p{
+
+	font-family: "swis721_cn_btroman";
+}
+
+.dev p{
+
+	font-family: "swis721_cn_btroman";
+	float: left;
+	padding-left: 295px;
+	margin-top: 12px; 
+}
+
+#rodape .rodapeDir .img_citi{
+
+	width: 35px;
+	float: right;
+	margin-top: 10px;
+}
+
